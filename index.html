@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <div id="header">Guess the Drawing !</div>
+    <div class="inputContainer">
+        <div class="input" id="colorinput">
+            <input type="color" list id="paintcolor">
+        </div>
+        <div class="input" id="thicknessinput">
+            <div id="circle"></div>
+
+        </div>
+        <div class="input">
+            <div id="slider"></div>
+        </div>
+    </div>
+    Your word will be displayed here
+    <div id="yourword">
+    </div>
+        <div id="container">
+            <canvas id="paint" width="500px" height="400px"></canvas>
+        </div>
+        <div id="trialsleft">
+            Trials Left: <span id="trialno"></span>
+        </div>
+        <div class="guessword">
+            <input type="text" name="" id="guessword"  placeholder="Enter your answer here..">
+            <button id="submitbtn">SUBMIT</button>
+        </div>
+        <div class="resultmsg">
+
+        </div>
+        <div class="inputContainer2">
+            <div class="input2">
+                <span id="erase" class="button">Erase</span>
+            </div>
+            <div class="input2">
+                <span id="save" class="button">Save</span>
+            </div>
+            <div class="input2">
+                <span id="reset" class="button">Reset</span>
+            </div>
+        </div>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="jquery.js"></script>
+
+</body>
+</html>
